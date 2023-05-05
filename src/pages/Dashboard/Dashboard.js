@@ -14,7 +14,7 @@ function Dashboard() {
         <>
         <div className='top'>
         <Header />
-        <DonutCard />
+      
         <div className='container'>
         <div className='container__left'>
         <div className='michael'>  <img src={michaelPof} alt="chevron-icon" className="img" /></div>
@@ -23,7 +23,7 @@ function Dashboard() {
 
         <div className='container__right'>
             <div className='container__right-inside'>
-         <div className='donut'>spych safety</div>
+         <div className='donut'>  <DonutCard /></div>
          <div className='notifications'> <img src={notifications} alt="chevron-icon" className="det__content-icon" /></div></div>
         <div className='upcoming-dates'><img src={upDates} alt="chevron-icon" className="det__content-icon" /></div>
         </div></div>
