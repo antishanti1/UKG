@@ -1,4 +1,5 @@
 import './Nav.scss'
+import { Link } from "react-router-dom";
 import ukglogo from '../../assets/icons/TeamWiseLogo.svg'
 import dunderMifflin from '../../assets/icons/dunder-mifflin-logo.svg'
 import dash from '../../assets/icons/dashboard-icon.svg'
@@ -15,29 +16,15 @@ import help from '../../assets/icons/HelpIcon.svg'
 export default function Nav() {
 
    
-        function setIconActive() {
-            const icon = document.querySelector('.nav__sec-icon');
-            const path = icon.querySelector('path');
-            if (path) {
-              path.setAttribute('fill', '#FFFEFF'); // Set the fill color to green
-            }
-          }
-          
-          function setIconInactive() {
-            const icon = document.querySelector('.nav__sec-icon');
-            const path = icon.querySelector('path');
-            if (path) {
-              path.setAttribute('fill', '#53565A'); // Set the fill color back to black
-            }
-          }
     return (
         <> 
         <section className='nav'>
         <div className='nav__top'><img className="nav__logo" src={ukglogo} alt='ukg-logo'></img>
        <img className="nav__logo" src={dunderMifflin} alt='dunder-mifflin-logo'></img></div>
        <div className='nav__bottom'>
-      <div className='nav__sec' onMouseDown={setIconActive} onMouseUp={setIconInactive}>
-      <img className="nav__sec-icon " src={dash} alt='dashboard-logo'></img> <h3> Dashboard</h3>
+       
+      <div className='nav__sec'>
+      <img className="nav__sec-icon " src={dash} alt='dashboard-logo'></img>    <Link to = '/'><h3> Dashboard</h3></Link>
       </div>
       <div className='nav__sec'>
       <img className="nav__sec-icon" src={schedule} alt='scheduling-logo'></img> <h3>Scheduling</h3>

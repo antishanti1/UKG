@@ -10,8 +10,8 @@ function DonutCard() {
         <>
         <div className='donut-card'>
             <div className='donut-card__top'>
-                <span className='donut-card__top-heading'>Team Happiness</span>
-                <img alt='more-info' src={dots}></img>
+                <span className='donut-card__top-heading'>Psych Safety Score</span>
+                <img className='donut-card__top-dots' alt='more-info' src={dots}></img>
             </div>
             <Donut />
         </div>
