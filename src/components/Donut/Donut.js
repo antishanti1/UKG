@@ -133,14 +133,15 @@ function Donut() {
         }
     };
 
-    const safetyScore = (Math.round(calculatePsychSafetyScore(apiResponse) * 100))
+    const safetyScore = (Math.round(calculatePsychSafetyScore(apiResponse) * 100));
+    
 
     let bgColor = 'white';
 
     if (safetyScore >= 80 ) {
         bgColor = 'green';
     } else if (safetyScore >= 70 && safetyScore <80) {
-        bgColor = 'yellow';
+        bgColor = '#FFB200';
     } else if (safetyScore<70) {
         bgColor = 'red';
     }
