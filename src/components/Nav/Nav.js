@@ -31,7 +31,7 @@ export default function Nav() {
       </div>
       <div  className='nav__sec'>
         <Link to= {"/employees"}>
-      <img className="nav__sec-icon"  src={employees} alt='employees-logo'></img> <h3>Emloyees</h3>
+      <img className="nav__sec-icon"  src={employees} alt='employees-logo'></img> <h3>Employees</h3>
         </Link>
       </div>
       <div className='nav__sec'>
