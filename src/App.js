@@ -5,6 +5,7 @@ import Dashboard from '../src/pages/Dashboard/Dashboard';
 import Header from "./components/Header/Header";
 import Employees from "./components/Employees/Employees";
 // import calculatePsychSafetyScore from "../src/components/ChartInfo/ChartInfo";
+import SurveyPage from "../src/pages/SurveyPage/SurveyPage";
 
 function App() {
   return (
