@@ -135,10 +135,20 @@ function Donut() {
 
     const safetyScore = (Math.round(calculatePsychSafetyScore(apiResponse) * 100))
 
+    let bgColor = 'white';
+
+    if (safetyScore >= 80 ) {
+        bgColor = 'green';
+    } else if (safetyScore >= 70 && safetyScore <80) {
+        bgColor = 'yellow';
+    } else if (safetyScore<70) {
+        bgColor = 'red';
+    }
+
     return (
         <>  
         <div className="donut">
-            <span className="donut__number">{safetyScore}</span>
+            <span className="donut__number" style={bgColor}>{safetyScore}</span>
         </div>
         </>
     )
