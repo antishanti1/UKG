@@ -1,3 +1,11 @@
+.img1{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem;
+    margin: 1rem;
+    width: 46vh;
+}
 .employee-cards{
     padding: 1rem;
     margin: 1rem;
@@ -7,8 +15,25 @@
     margin-top: 1rem;
     flex-wrap: wrap;
     
-    // &__section{
-    // }
+    &__section{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #ececec;
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+
+    }
+    
+    &__section{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #ececec;
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
 
     &__top{
         // position: absolute;
@@ -19,13 +44,24 @@
         
     }
     
-    &__bottom{
-        margin: 1rem;
-        display: inline-flex;
+    &__top-left{
+        margin: .25rem;
+        padding: 1rem;
+    
+        
+    }
+    &__top-right{
+        margin: .25rem;
+    }
+    &__bottom-left{
+        margin: .25rem;
+    }
+    &__bottom-right{
+        margin: .25rem;
     }
 }
 
-.container{
+.container-2{
     display: block;
-    flex-grow: 1;
+}
 }
