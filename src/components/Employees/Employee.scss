@@ -1,5 +1,6 @@
 .employee-cards{
     padding: 1rem;
+    margin: 1rem;
     background-color: #D6D6D6;
     padding: 1rem;
     display: flex;
@@ -11,7 +12,7 @@
 
     &__top{
         // position: absolute;
-        // top: 20;
+        top: 20;
         margin: 1rem;
         display: inline-flex;
         max-width: max-content;

@@ -15,14 +15,14 @@ function Dashboard() {
         <div className='top'>
         <Header />
       
-        <div className='container'>
-        <div className='container__left'>
+        <div className='container-dash'>
+        <div className='container-dash__left'>
         <div className='michael'>  <img src={michaelPof} alt="chevron-icon" className="img" /></div>
         <div className='paper-sales'>  <img src={paperSales} alt="chevron-icon" className="det__content-icon" /></div>
        <div className='team-goals'><img src={teamGoals} alt="chevron-icon" className="det__content-icon" /></div> </div>
 
-        <div className='container__right'>
-            <div className='container__right-inside'>
+        <div className='container-dash__right'>
+            <div className='container-dash__right-inside'>
          <div className='donut'>  <DonutCard /></div>
          <div className='notifications'> <img src={notifications} alt="chevron-icon" className="det__content-icon" /></div></div>
         <div className='upcoming-dates'><img src={upDates} alt="chevron-icon" className="det__content-icon" /></div>

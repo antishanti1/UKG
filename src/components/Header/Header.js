@@ -1,5 +1,5 @@
 import '../Header/Header.scss';
-import avatar from '../../assets/images/steve-carell-michael-scott-the-office.jpg'
+import avatar from '../../assets/images/michael-profile-pic-2.png'
 import notification from '../../assets/icons/NotificationIcon.svg';
 
 

@@ -2,20 +2,26 @@
     width: 100%;
 }
 
-.container {
+.container-dash {
     background-color:  #D6D6D6;
     display: flex;
     padding: 1rem;
+   
 
 
     &__right {
         display: flex;
         flex-direction: column;
         margin-left: 1.5rem;
+        gap: 1rem;
 
 
         &-inside {
             display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+
         }
     }
 
@@ -38,8 +44,8 @@
 
 
 .donut {
-    width: 335px;
-    height: 381px;
+    width: 100%;
+
 
 }
 
