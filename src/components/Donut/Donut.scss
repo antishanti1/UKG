@@ -5,7 +5,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 5rem;
     margin-bottom: 62px;
+
+    &__number {
+        font-size: 6rem;
+        font-weight: 600;
+        color: white;
+    }
 }
