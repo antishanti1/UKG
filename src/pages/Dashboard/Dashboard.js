@@ -1,6 +1,6 @@
 import '../Dashboard/Dashboard.scss';
 import Header from '../../components/Header/Header';
-import DonutCard from '../../components/DonutCard/DonutCard';
+// import DonutCard from '../../components/DonutCard/DonutCard';
 
 function Dashboard() {
 
@@ -8,9 +8,6 @@ function Dashboard() {
         <>
         <div className='top'>
         <Header />
-<<<<<<< HEAD
-        <DonutCard/>
-=======
         <div className='container'>
         <div>
         <div>michel</div>
@@ -24,7 +21,6 @@ function Dashboard() {
         <div>Upcoming dates</div>
         </div></div>
 </div>
->>>>>>> origin/develop
         </>
     )
 }
