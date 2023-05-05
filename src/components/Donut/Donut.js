@@ -147,8 +147,8 @@ function Donut() {
 
     return (
         <>  
-        <div className="donut">
-            <span className="donut__number" style={bgColor}>{safetyScore}</span>
+        <div className="donut" style={{backgroundColor: bgColor}}>
+            <span className="donut__number">{safetyScore}</span>
         </div>
         </>
     )
