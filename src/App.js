@@ -2,6 +2,7 @@
 import './App.scss';
 import Nav from '../src/components/Nav/Nav';
 import Dashboard from '../src/pages/Dashboard/Dashboard';
+import calculatePsychSafetyScore from "../src/components/ChartInfo/ChartInfo";
 
 function App() {
   return (
