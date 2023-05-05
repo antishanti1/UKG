@@ -1,6 +1,5 @@
 import React from "react";
-import Nav from "../Nav/Nav"
-import Header from "../Header/Header"
+import Header from "../Header/Header";
 import notification from '../../assets/icons/NotificationIcon.svg';
 import '../Header/Header.scss';
 
@@ -32,3 +31,5 @@ function Employees() {
         </>
     )
 }
+
+export default Employees;

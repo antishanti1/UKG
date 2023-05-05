@@ -1,4 +1,5 @@
 import './Nav.scss'
+import { Link } from "react-router-dom";
 import ukglogo from '../../assets/icons/TeamWiseLogo.svg'
 import dash from '../../assets/icons/dashboard-icon.svg'
 import schedule from '../../assets/icons/ScheduleIcon.svg'
@@ -23,7 +24,9 @@ export default function Nav() {
       <img className="nav__sec-icon" src={schedule} alt='scheduling-logo'></img> <h3>Scheduling</h3>
       </div>
       <div  className='nav__sec'>
+        <Link to= {"/employees"}>
       <img className="nav__sec-icon"  src={employees} alt='employees-logo'></img> <h3>Emloyees</h3>
+        </Link>
       </div>
       <div className='nav__sec'>
       <img className="nav__sec-icon"  src={pieGraph} alt='pie-graph-logo'></img> <h3>Results</h3>
