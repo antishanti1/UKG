@@ -1,13 +1,14 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2';
+import calculatePsychSafetyScore from "../ChartInfo/ChartInfo";
 
 
-function PieChart({ chartData }) {
+function Donut({ calculatePsychSafetyScore }) {
     const data1 = {
-        labels: Object.keys(chartData.results[0].emotions),
+        labels: Object.keys(calculatePsychSafetyScore.results[0].emotions),
         datasets: [
           {
-            data: Object.values(chartData.results[0].emotions),
+            data: Object.values(calculatePsychSafetyScore.results[0].emotions),
             backgroundColor: [
               '#FF6384',
               '#36A2EB',
@@ -55,7 +56,7 @@ function PieChart({ chartData }) {
     </>
   );
 }
-export default PieChart;
+export default Donut;
 
 
 

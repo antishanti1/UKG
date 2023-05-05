@@ -2,7 +2,7 @@ import './DonutCard.scss';
 import dots from '../../assets/icons/kabab-menu.svg'
 import Donut from '../Donut/Donut'
 
-function Donut() {
+function DonutCard() {
 
     
 
@@ -19,4 +19,4 @@ function Donut() {
     )
 }
 
-export default Donut;
+export default DonutCard;
