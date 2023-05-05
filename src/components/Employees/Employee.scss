@@ -1,11 +1,30 @@
 .employee-cards{
+    padding: 1rem;
+    background-color: #D6D6D6;
+    padding: 1rem;
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    
+    // &__section{
+    // }
 
-    &__top-left{
+    &__top{
+        // position: absolute;
+        // top: 20;
+        margin: 1rem;
+        display: inline-flex;
+        max-width: max-content;
+        
     }
-    &__top-right{
+    
+    &__bottom{
+        margin: 1rem;
+        display: inline-flex;
     }
-    &__bottom-left{
-    }
-    &__bottom-right{
-    }
+}
+
+.container{
+    display: block;
+    flex-grow: 1;
 }

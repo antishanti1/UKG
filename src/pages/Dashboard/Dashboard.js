@@ -5,7 +5,7 @@ import teamGoals from '../../assets/images/team-goals.png'
 import upDates from '../../assets/images/upcoming-dates.png'
 import notifications from '../../assets/images/notification-modal.png'
 import Header from '../../components/Header/Header';
-
+import DonutCard from '../../components/DonutCard/DonutCard';
 
 
 function Dashboard() {
@@ -14,6 +14,7 @@ function Dashboard() {
         <>
         <div className='top'>
         <Header />
+        <DonutCard />
         <div className='container'>
         <div className='container__left'>
         <div className='michael'>  <img src={michaelPof} alt="chevron-icon" className="img" /></div>
