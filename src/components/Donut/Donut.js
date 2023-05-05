@@ -133,7 +133,7 @@ function Donut() {
         }
     };
 
-    const safetyScore = 70;
+    const safetyScore = (Math.round(calculatePsychSafetyScore(apiResponse) * 100));
     
 
     let bgColor = 'white';
