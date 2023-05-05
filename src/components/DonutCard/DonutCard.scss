@@ -1,0 +1,27 @@
+.donut-card {
+    width: 335px;
+    height: 381px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &__top {
+        display: flex;
+        align-items: flex-start;
+        
+
+        &-heading {
+            font-size: 22px;
+            font-weight: 600;
+            text-align: center;
+            padding-left: 55px;
+        }
+
+        &-dots {
+            padding-right: 22.5px;
+            padding-left: 30.67px;
+            padding-top: 7px;
+        }
+    }
+}
