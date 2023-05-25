@@ -22,6 +22,11 @@
            
         }
 
+        &-list {
+            display: flex;
+            align-items: center;
+        }
+
       
     }
 
@@ -32,6 +37,10 @@
         gap: .5rem;
         justify-content: space-between;
         font-size: .9rem;
+    }
+
+    &__bottom {
+        margin: 1rem 1rem 1rem 1.5rem;
     }
 
 }

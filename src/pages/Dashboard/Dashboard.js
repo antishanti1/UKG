@@ -9,7 +9,6 @@ import DonutCard from '../../components/DonutCard/DonutCard';
 import Profile from '../../components/Profile/Profile';
 import PaperSales from '../../components/PaperSales/PaperSales';
 
-
 function Dashboard() {
 
     return (
@@ -22,7 +21,7 @@ function Dashboard() {
         <div className='top'>
          <Header /></div>
 
-         <div className='bottom'>
+         <div className='bot'>
 
              {/* <div className='donut'><DonutCard /> </div>  */}
              <div>
@@ -31,6 +30,7 @@ function Dashboard() {
              <div>
                 < PaperSales />
              </div>
+             <div></div>
          </div>
         {/* <div className='container-dash'>
         <div className='container-dash__left'>
