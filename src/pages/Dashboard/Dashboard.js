@@ -8,6 +8,7 @@ import Header from '../../components/Header/Header';
 import DonutCard from '../../components/DonutCard/DonutCard';
 import Profile from '../../components/Profile/Profile';
 import PaperSales from '../../components/PaperSales/PaperSales';
+import TeamGoals from '../../components/TeamGoals/TeamGoals';
 
 function Dashboard() {
 
@@ -18,20 +19,29 @@ function Dashboard() {
         
         <div className='main-container'>
   
-        <div className='top'>
+        <div className='main-container__top'>
          <Header /></div>
 
-         <div className='bot'>
+         <div className='main-container__bottom'>
 
-             {/* <div className='donut'><DonutCard /> </div>  */}
+        <div className='main-container__left'>
              <div>
                 <Profile />
              </div>
              <div>
                 < PaperSales />
              </div>
-             <div></div>
+             <div><TeamGoals /></div>
          </div>
+
+         <div className='main-container__right'>
+            <div className='main-container__one'>
+          <DonutCard />
+            </div>
+            <div className='main-container__two'>
+                </div>
+            </div>
+          </div>
         {/* <div className='container-dash'>
         <div className='container-dash__left'>
         <div className='michael'>  <img src={michaelPof} alt="chevron-icon" className="img" /></div>

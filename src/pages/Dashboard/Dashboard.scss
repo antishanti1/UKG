@@ -4,11 +4,13 @@
         width: 100vw;
         flex-direction: column;
 
+        &__bottom {
+            height: 100vh;
+            padding: 1rem;
+            background-color: #D6D6D6;
+            display: flex;
+        }
+
     }
 }
 
-.bot {
-    height: 100vh;
-    padding: 1rem;
-    background-color: #D6D6D6;
-}

@@ -1,0 +1,69 @@
+.team {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+   &__top {
+    padding: 1rem 1.7rem 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-heading {
+        font-size: 1.3rem;
+        font-weight: 500;
+
+    }
+
+    &-more {
+        color: #A0A0A0;
+        font-size: 2.5rem;
+       
+    }
+   }
+
+   &__bottom {
+
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 2rem 0 2rem;
+
+    &-goal {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-bar {
+        &--red {
+            width: 20%;
+            height: 10px;
+            background-color: #FF0000;
+            display: flex;
+        }
+
+        &--blue {
+            width: 60%;
+            height: 10px;
+            background-color: #34a0e8;
+            display: flex;
+        }
+
+        &--green {
+            width: 75%;
+            height: 10px;
+            background-color: #2cae39;
+            display: flex;
+        }
+
+        &--yellow {
+            width: 40%;
+            height: 10px;
+            background-color: #e0cf3d;
+            display: flex;
+        }
+    }
+   }
+
+
+}
