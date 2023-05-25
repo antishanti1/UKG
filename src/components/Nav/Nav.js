@@ -37,7 +37,7 @@ export default function Nav() {
       <div className='nav__sec'>
       <img className="nav__sec-icon"  src={pieGraph} alt='pie-graph-logo'></img> <Link to= {"/survey"}> <h3>Surveys</h3> </Link>
       </div>
-      <hr className='nav__sec-hr'></hr>
+      {/* <hr className='nav__sec-hr'></hr> */}
       <div className='nav__sec nav__sec--settings'>
       <img className="nav__sec-icon"  src={settings} alt='settings-logo'></img> <h3>Settings</h3>
       </div>

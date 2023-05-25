@@ -12,7 +12,6 @@ function App() {
 
  <div className="main">
     <Nav />
-    {/* <Dashboard /> */}
 
    <Routes>
    <Route path="/" element={<Dashboard />} />

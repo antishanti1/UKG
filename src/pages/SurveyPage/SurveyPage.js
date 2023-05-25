@@ -1,5 +1,6 @@
 import SurveyInsights from "../../components/SurveyInsights/SurveyInsights";
 import notification from '../../assets/icons/NotificationIcon.svg';
+import '../SurveyPage/SurveyPage.scss'
 
 function SurveyPage() {
     return(
