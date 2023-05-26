@@ -1,0 +1,88 @@
+.dates {
+    background-color: white;
+    width: 880px;
+    height: 537px;
+  
+    border-radius: 10px;
+
+    &__top {
+        margin: 1rem;;
+        &-heading {
+            padding-top: 1rem;
+            font-size: 2rem;
+            color: #53565A;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    &__bottom {
+        padding-top: .5rem;
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: #cdcbcb 1px solid;
+            align-items: center;
+            padding: 1rem 0 1rem 0;
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+           justify-content: space-evenly;
+            margin: 0 4rem 0 4rem;
+            padding: 1rem 0 1rem 0;
+           
+        }
+
+        &-emp , &-details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-pic {
+            object-fit: cover;
+            object-position: top;
+            width: 20%;
+            border-radius: 50%;
+            width: 3.5rem;
+            height: 3.5rem;
+            margin-right: 1.5625rem;
+            // background-color: #53565A;
+        }
+
+        &-name {
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+
+        &-position {
+            color:#076966;
+            font-weight: 500;
+            font-size: .9rem;
+        }
+
+        &-top {
+            font-size: 1.1rem;
+            color: #53565A;
+            font-weight: 500;
+        }
+
+        &-bott {
+            font-size: .9rem;
+            color: #A0A0A0;
+            font-weight: 400;
+        }
+
+        &-date {
+            color:#076966;
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+
+        &-p, &-emp, &-details, &-date {
+           width: 20%;
+        }
+    }
+}

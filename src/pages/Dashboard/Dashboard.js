@@ -5,6 +5,7 @@ import Profile from '../../components/Profile/Profile';
 import PaperSales from '../../components/PaperSales/PaperSales';
 import TeamGoals from '../../components/TeamGoals/TeamGoals';
 import Notifications from '../../components/Notifications/Notifications';
+import UpcomingDates from '../../components/UpcomingDates/UpcomingDates';
 
 function Dashboard() {
 
@@ -39,6 +40,7 @@ function Dashboard() {
             
             </div>
             <div className='main-container__two'>
+                <UpcomingDates />
                 </div>
             </div>
           </div>

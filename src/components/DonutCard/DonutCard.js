@@ -1,5 +1,5 @@
 import './DonutCard.scss';
-import dots from '../../assets/icons/kabab-menu.svg'
+import { BiDotsHorizontalRounded } from 'react-icons/bi';
 import Donut from '../Donut/Donut'
 
 function DonutCard() {
@@ -11,7 +11,7 @@ function DonutCard() {
         <div className='donut-card'>
             <div className='donut-card__top'>
                 <span className='donut-card__top-heading'>Psych Safety Score</span>
-                <img className='donut-card__top-dots' alt='more-info' src={dots}></img>
+                <span className='donut-card__top-more'><BiDotsHorizontalRounded /></span>
             </div>
             <Donut />
         </div>

@@ -24,6 +24,13 @@
         &-list {
             display: flex;
             flex-direction: column;
+            gap: 2rem;
+        }
+
+        &-item {
+            display: flex;
+            flex-direction: column;
+            gap: .3rem;
         }
 
         &-date {

@@ -1,0 +1,37 @@
+
+  [
+      {
+        "img": "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/The-Office-Kate-Flannery-as-Meredith-Palmer.jpg",
+        "name": "Meredith Palmer",
+        "position": "Supplier Relations",
+        "event": "Birthday",
+        "age": "42 Years Young",
+        "date": "May 12th"
+      },
+      {
+        "img": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Oscar-Martinez.The-Office.webp",
+        "name": "Oscar Martinez",
+        "position": "Accountant",
+        "event": "Work Anniversary",
+        "years": "3 years",
+        "date": "May 18th"
+      },
+      {
+        "img": "https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Landing-Pages/2-0-design/the-office/cast-the-office-pam-beesly.jpg/_jcr_content/renditions/original.JPEG",
+        "name": "Pam Beesly",
+        "position": "Receptionist",
+        "event": "Vacation",
+        "details": "Going to Niagara Falls",
+        "date": "May 19th-25th"
+      },
+      {
+        "img": "https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Landing-Pages/2-0-design/the-office/cast-the-office-dwight-schrute.jpg/_jcr_content/renditions/original.JPEG",
+        "name": "Dwight Shrute",
+        "position": "Assistant to the Regional Manager",
+        "event": "Birthday",
+        "age": "38 Years Young",
+        "date": "June 3rd"
+      }
+    ]
+  
+  
