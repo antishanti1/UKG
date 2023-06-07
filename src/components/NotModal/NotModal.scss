@@ -1,0 +1,52 @@
+.not {
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+  
+
+    &__content {
+        width: 40%;
+        height: 40%;
+        position: absolute;
+        background-color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        border-radius: 10px;
+        padding: 1rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__close {
+        position: absolute;
+        
+        width: 25px;
+        height: 25px;
+        background-color: #e2eaea;
+        color:#05605d;
+        border: none;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+.not:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: black;
+    opacity: 0.5;
+}

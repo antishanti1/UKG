@@ -1,9 +1,21 @@
-import React from 'react';
+import {useState} from 'react';
 import './Notifications.scss';
 import { GoPrimitiveDot } from 'react-icons/go';
 import notificationsData from '../../data/notifications.json';
+import NotModal from '../NotModal/NotModal';
+
 
 export default function Notifications() {
+
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedNotification, setSelectedNotification] = useState(null);
+
+  const handleNotificationClick = (notification) => {
+    setSelectedNotification(notification);
+    setIsOpen(true);
+  };
+
+
   return (
     <div className='notifications'>
       <div className='notifications__top'>
@@ -20,12 +32,32 @@ export default function Notifications() {
               </p>
               <div className='notifications__bottom-buttons'>
                 <button className='notifications__bottom-snooze'>Snooze</button>
-                <button className='notifications__bottom-view'>View</button>
+                <button className='notifications__bottom-view' onClick={() => handleNotificationClick(notification)} 
+                >View</button>
               </div>
             </div>
           ))}
         </div>
       </div>
+      <NotModal
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
+        content={
+          selectedNotification && (
+        <div className='notmodal-box'> 
+        <div className='notmodal-top'> 
+         <h2 className='notmodal__heading'>Notification</h2>
+           <span className='notifications__bottom-date' >{selectedNotification.date}</span> </div>
+        <div className='notmodal-bottom'> 
+        <div className='notmodal-bottom__emp'> 
+        <img className="dates__bottom-pic" src={selectedNotification.img} alt={selectedNotification.name} />
+        <p> {selectedNotification.name} wrote on {selectedNotification.postdate}</p> </div>
+        <div className='notmodal-bottom__message'>
+        <p>{selectedNotification.note}</p>
+          </div>
+        </div>
+        </div>)}
+      />
     </div>
   );
 }

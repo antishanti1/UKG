@@ -1,13 +1,25 @@
 [
     {
+      "img": "https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Landing-Pages/2-0-design/the-office/cast-the-office-pam-beesly.jpg/_jcr_content/renditions/original.JPEG",
+      "name": "Pam Beesly",
+      "postdate": "May 3, 2023 2:30 PM",
+      "note": "Michael, people are not happy with the last schedule. Can you please review and make changes? This will affect the surveys for next week!!!",
       "date": "May 5, 2023 9:30 AM",
       "message": "Reminder: Make schedule for week of May 8th"
     },
     {
+      "img": "https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Landing-Pages/2-0-design/the-office/cast-the-office-dwight-schrute.jpg/_jcr_content/renditions/original.JPEG",
+      "name": "Dwight Shrute",
+      "postdate": "May 4, 2023 12:30 PM",
+      "note": "It doesn't look good, Michael...",
       "date": "May 5, 2023 8:17 AM",
       "message": "Employee survey results are ready for review"
     },
     {
+      "img": "https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Landing-Pages/2-0-design/the-office/cast-the-office-dwight-schrute.jpg/_jcr_content/renditions/original.JPEG",
+      "name": "Dwight Shrute",
+      "note": "If those surveys keep coming like that, there's no need for a new product...",
+      "postdate": "April 15, 2023 9:00 AM",
       "date": "May 6, 2023 10:00 AM",
       "message": "New product launch meeting"
     }
