@@ -1,0 +1,68 @@
+[
+    {
+      "question": "Can you describe how you felt during the incident?",
+      "affect": "https://www.reshot.com/preview-assets/icons/ZXQ68KMFJ2/silent-ZXQ68KMFJ2.svg",
+      "polarity": ".8",
+      "details": "During the incident, I felt furious and betrayed. Michael Scott made inappropriate jokes about my work, mocking my efforts in front of the entire team. It was demeaning and completely unprofessional.",
+      "date": "2023-06-08",
+      "comment": "Instances like this create a toxic work environment and should never be tolerated. Respect and professionalism should be the foundation of any workplace."
+    },
+    {
+        "question": "Can you describe how you felt during the incident?",
+        "affect": "https://www.reshot.com/preview-assets/icons/ZA7K8VXWD6/big-frown-ZA7K8VXWD6.svg",
+        "polarity": ".2",
+        "details": "During the incident, I felt extremely embarrassed. Dwight Schrute publicly pointed out a mistake I made in front of the entire office, making me the subject of ridicule. It was a humiliating experience that undermined my confidence.",
+        "date": "2023-06-08",
+        "comment": "Publicly shaming employees is detrimental to morale and productivity. It's important to foster a supportive environment where mistakes are addressed constructively."
+      },
+      {
+        "question": "Has the incident affected your relationship with the manager? If so, how?",
+        "affect": "https://www.reshot.com/preview-assets/icons/YQDZUR4HXJ/upset-YQDZUR4HXJ.svg",
+        "polarity": ".7",
+        "details": "Yes, the incident has strained my relationship with Dwight Schrute. I no longer feel comfortable approaching him or seeking guidance. There is a clear lack of trust and respect due to his unprofessional behavior.",
+        "date": "2023-06-08",
+        "comment": "Building a positive manager-employee relationship requires open communication, trust, and mutual respect. It's disheartening when those qualities are absent."
+      },
+    {
+      "question": "Has the incident affected your relationship with the manager? If so, how?",
+      "affect": "https://www.reshot.com/preview-assets/icons/YQDZUR4HXJ/upset-YQDZUR4HXJ.svg",
+      "polarity": ".3",
+      "details": "Yes, the incident has severely affected my relationship with Michael Scott. I can no longer trust him as a manager or feel comfortable sharing my concerns. It has created a barrier in our communication and made me question his leadership abilities.",
+      "date": "2023-06-08",
+      "comment": "A healthy working relationship between a manager and an employee is crucial for productivity and job satisfaction. I hope we can work towards resolving this and rebuilding trust."
+    },
+    {
+      "question": "How did the incident affect you personally?",
+      "affect": "https://www.reshot.com/preview-assets/icons/XRDYPNAES3/injured-XRDYPNAES3.svg",
+      "polarity": ".3",
+      "details": "The incident had a profound personal impact on me. It left me feeling hurt and humiliated. It's disheartening when someone you trust and respect belittles your efforts, impacting my self-esteem and overall well-being.",
+      "date": "2023-06-08",
+      "comment": "It's important to create a safe and inclusive environment where employees feel valued and supported. No one should have to experience such emotional distress in the workplace."
+    },
+    {
+      "question": "What was your reaction to the incident?",
+      "affect": "https://www.reshot.com/preview-assets/icons/2ZWFHESM4Y/sly-2ZWFHESM4Y.svg",
+      "polarity": ".7",
+      "details": "My immediate reaction to the incident was one of disappointment. I expected better from a manager like Michael Scott. It highlighted a lack of professionalism and respect within our work environment.",
+      "date": "2023-06-08",
+      "comment": "Addressing incidents promptly and implementing proper training can help prevent similar situations and create a healthier workplace for everyone."
+    },
+    {
+      "question": "Do you believe the incident had a positive or negative impact on your work performance?",
+      "affect": "https://www.reshot.com/preview-assets/icons/XRDYPNAES3/injured-XRDYPNAES3.svg",
+      "polarity": ".6",
+      "details": "The incident had a negative impact on my work performance. It affected my motivation and ability to focus on tasks at hand. It's challenging to give my best when I feel demoralized and undervalued.",
+      "date": "2023-06-08",
+      "comment": "Creating a positive work culture that fosters employee well-being and recognizes their contributions is crucial for individual and team success."
+    },
+    {
+      "question": "How did the incident make you feel about your job?",
+      "affect": "https://www.reshot.com/preview-assets/icons/ZA7K8VXWD6/big-frown-ZA7K8VXWD6.svg",
+      "polarity": ".7",
+      "details": "The incident left me uncertain about my job. It made me question if this is the right place for me to grow and thrive professionally. No one should have to tolerate such disrespectful behavior.",
+      "date": "2023-06-08",
+      "comment": "Organizations should prioritize establishing a respectful and inclusive work environment, ensuring employees feel valued."
+    }
+
+    ]
+  

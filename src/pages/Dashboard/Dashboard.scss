@@ -3,7 +3,7 @@
         display: flex;
         width: 100vw;
         flex-direction: column;
-        border-left: 3px solid #e4e2e2;
+
 
         &__one {
             display: flex;
@@ -12,12 +12,12 @@
         }
 
         &__bottom {
-            // height: 100vh;
             padding: 1rem 1rem 1rem 1.5rem;
             background-color: #eaeaea;
             display: flex;
             display: flex;
             gap: 1rem;
+            border-left: 3px solid #e4e2e2;
         }
 
         &__left {

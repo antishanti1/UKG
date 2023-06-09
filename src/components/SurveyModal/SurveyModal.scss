@@ -1,4 +1,4 @@
-.not {
+.survey-modal {
   
     position: fixed;
     top: 0;
@@ -6,8 +6,9 @@
     right: 0;
     bottom: 0;
 
-
     &__content {
+        // width: 50%;
+        // height: 55%;
         position: absolute;
         background-color: white;
         top: 50%;
@@ -18,12 +19,10 @@
         padding: 1rem;
         display: flex;
         justify-content: flex-end;
-        margin-bottom: 1rem;
     }
 
     &__close {
         position: absolute;
-        
         width: 25px;
         height: 25px;
         background-color: #e2eaea;
@@ -37,7 +36,7 @@
     }
 }
 
-.not:after {
+.survey-modal:after {
     content: "";
     position: absolute;
     top: 0;

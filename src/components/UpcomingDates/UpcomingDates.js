@@ -15,8 +15,6 @@ export default function UpcomingDates() {
             {upcomingDates.map((date, index) => (
               <div key={index} className="dates__bottom-item">
                 <div >
-                   
-                  {/* <img src='../../assets/images/meredith.png' alt={date.name} /> */}
                   <img className="dates__bottom-pic" src={date.img} alt={date.name} />
                 </div>
                 <div className="dates__bottom-emp">

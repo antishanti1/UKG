@@ -3,18 +3,23 @@ import './Notifications.scss';
 import { GoPrimitiveDot } from 'react-icons/go';
 import notificationsData from '../../data/notifications.json';
 import NotModal from '../NotModal/NotModal';
+import SModal from '../SModal/SModal';
 
 
 export default function Notifications() {
 
   const [isOpen, setIsOpen] = useState(false);
   const [selectedNotification, setSelectedNotification] = useState(null);
+  const [isSnoozeOpen, setIsSnoozeOpen] = useState(false);
 
   const handleNotificationClick = (notification) => {
     setSelectedNotification(notification);
     setIsOpen(true);
   };
 
+  const handleSnoozeButtonClick = () => {
+    setIsSnoozeOpen(true);
+  };
 
   return (
     <div className='notifications'>
@@ -31,7 +36,9 @@ export default function Notifications() {
                 <GoPrimitiveDot size={25} style={{ color: '#87ddda' }} /> {notification.message}
               </p>
               <div className='notifications__bottom-buttons'>
-                <button className='notifications__bottom-snooze'>Snooze</button>
+              <button className='notifications__bottom-snooze' onClick={handleSnoozeButtonClick}>
+                  Snooze
+                </button>
                 <button className='notifications__bottom-view' onClick={() => handleNotificationClick(notification)} 
                 >View</button>
               </div>
@@ -57,6 +64,16 @@ export default function Notifications() {
           </div>
         </div>
         </div>)}
+      />
+            <SModal
+        isOpen={isSnoozeOpen}
+        onClose={() => setIsSnoozeOpen(false)}
+        content={
+        <div className='smodal__box'>
+          <span className='smodal__sorry'>Sorry!</span>
+          <p> You've reached your soozing limit this week.</p>
+          </div>
+        }
       />
     </div>
   );
