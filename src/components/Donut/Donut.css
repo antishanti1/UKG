@@ -1,0 +1,10 @@
+.donut {
+  width: 227px;
+  height: 227px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+}/*# sourceMappingURL=Donut.css.map */

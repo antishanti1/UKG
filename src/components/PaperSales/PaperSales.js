@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+
 import './PaperSales.scss';
 import { BiDotsHorizontalRounded } from 'react-icons/bi';
-import { Chart } from 'react-charts';
 import MyChart from './Chart';
 import {GoPrimitiveDot} from 'react-icons/go';
 

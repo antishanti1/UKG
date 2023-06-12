@@ -1,0 +1,130 @@
+.notifications {
+  background-color: white;
+  width: 500px;
+  height: 386px;
+  border-radius: 10px;
+}
+.notifications__top {
+  margin: 1rem;
+}
+.notifications__top-heading {
+  font-size: 2rem;
+  color: #53565A;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+.notifications__bottom {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  gap: 2rem;
+  align-items: center;
+}
+.notifications__bottom-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.notifications__bottom-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.notifications__bottom-date {
+  font-size: 1rem;
+  color: #077b77;
+  font-weight: 500;
+  margin: 0 0 0 1rem;
+}
+.notifications__bottom-p {
+  font-size: 0.9rem;
+  color: #A0A0A0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.notifications__bottom-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.notifications__bottom-snooze {
+  width: 90px;
+  height: 22px;
+  border: none;
+  font-size: 0.7rem;
+  background-color: #e2eaea;
+  color: #05605d;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.notifications__bottom-snooze:hover {
+  background-color: #077b77;
+  color: white;
+}
+.notifications__bottom-view {
+  width: 90px;
+  border: none;
+  font-size: 0.7rem;
+  color: #53565A;
+  background-color: #87ddda;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.notifications__bottom-view:hover {
+  background-color: #077b77;
+  color: white;
+}
+
+.notmodal-box {
+  width: 100%;
+  height: 80%;
+  padding-top: 2rem;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+.notmodal__heading {
+  font-size: 1.2rem;
+}
+.notmodal-top {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+}
+.notmodal-bottom {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.notmodal-bottom__emp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+.notmodal-bottom__message {
+  font-size: 1rem;
+  color: #53565A;
+  padding: 2rem;
+  border-radius: 5rem;
+  background-color: #f1efef;
+}
+
+.smodal__box {
+  width: 100%;
+  height: 80%;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.smodal__sorry {
+  font-weight: 500;
+  font-size: 2rem;
+  color: rgb(174, 4, 4);
+}/*# sourceMappingURL=Notifications.css.map */
