@@ -1,28 +1,28 @@
 import './Employees.scss';
 import notification from '../../assets/icons/NotificationIcon.svg';
 import { BiDotsHorizontalRounded } from 'react-icons/bi';
-import { Line } from 'react-chartjs-2';
+// import { Line } from 'react-chartjs-2';
 import empData from '../../data/employees.json';
-import {
-    Chart as ChartJS,
-    CategoryScale,
-    LinearScale,
-    PointElement,
-    LineElement,
-    Title,
-    Tooltip,
-    Legend,
-  } from 'chart.js';
+// import {
+//     Chart as ChartJS,
+//     CategoryScale,
+//     LinearScale,
+//     PointElement,
+//     LineElement,
+//     Title,
+//     Tooltip,
+//     Legend,
+//   } from 'chart.js';
 
-  ChartJS.register(
-    CategoryScale,
-    LinearScale,
-    PointElement,
-    LineElement,
-    Title,
-    Tooltip,
-    Legend
-  );
+  // ChartJS.register(
+  //   CategoryScale,
+  //   LinearScale,
+  //   PointElement,
+  //   LineElement,
+  //   Title,
+  //   Tooltip,
+  //   Legend
+  // );
 
 
 
@@ -110,7 +110,7 @@ function EmployeeCard({ employee }) {
             </div>
           </div>
           <div className='emp-main__bottom'>
-          <Line
+          {/* <Line
   data={data}
   options={{
     scales: {
@@ -127,7 +127,7 @@ function EmployeeCard({ employee }) {
       },
     },
   }}
-/>
+/> */}
           </div>
         </div>
       );
