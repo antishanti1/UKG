@@ -1,6 +1,6 @@
 import React from 'react';
 import './Profile.scss';
-import avatar from '../../assets/images/michael-profile-pic-2.png'
+import avatar from '../../assets/images/michael.png'
 import { BiDotsHorizontalRounded } from 'react-icons/bi';
 
 

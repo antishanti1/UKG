@@ -1,6 +1,3 @@
-import React, {useState} from "react";
-import Donut from "../Donut/Donut";
-
 
 const apiResponse = {
 

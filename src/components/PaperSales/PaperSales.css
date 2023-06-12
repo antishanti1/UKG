@@ -1,0 +1,35 @@
+.paper {
+  background-color: white;
+  width: 320px;
+  height: 386px;
+  border-radius: 10px;
+}
+.paper__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.7rem 1rem 2rem;
+}
+.paper__top-heading {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.paper__top-more {
+  color: #A0A0A0;
+  font-size: 2.5rem;
+}
+.paper__top-list {
+  display: flex;
+  align-items: center;
+}
+.paper__middle {
+  display: flex;
+  padding: 0 2rem 0 2rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+.paper__bottom {
+  margin: 1rem 1rem 1rem 1.5rem;
+}/*# sourceMappingURL=PaperSales.css.map */

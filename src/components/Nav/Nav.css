@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Volte";
+  src: url(../assets/fonts/volte-normal-400.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Volte";
+  src: url(../assets/fonts/volte-medium.ttf) format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Volte";
+  src: url(../assets/fonts/volte-normal-600.ttf) format("truetype");
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.3125rem;
+  font-weight: 100;
+  color: #53565A;
+}
+h3:hover {
+  color: #05605d;
+}
+
+.nav {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav__logo {
+  width: 101px;
+  height: 62px;
+}
+.nav__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.nav__sec {
+  width: 200px;
+  height: 58px;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem 0 3rem;
+}
+.nav__sec:hover {
+  background-color: #e2eaea;
+  cursor: pointer;
+}
+.nav__sec--hr {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #c4c6c9;
+}
+.nav__sec-icon {
+  width: 24px;
+  height: 24px;
+}
+.nav__sec-icon:hover {
+  color: white;
+}
+.nav__sec-hr {
+  border: 1px solid #53565A;
+}
+.nav__sec--help {
+  margin-top: 2rem;
+}
+.nav__bottom {
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}/*# sourceMappingURL=Nav.css.map */

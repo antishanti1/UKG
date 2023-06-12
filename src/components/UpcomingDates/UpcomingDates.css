@@ -1,0 +1,76 @@
+.dates {
+  background-color: white;
+  width: 880px;
+  height: 537px;
+  border-radius: 10px;
+}
+.dates__top {
+  margin: 1rem;
+}
+.dates__top-heading {
+  padding-top: 1rem;
+  font-size: 2rem;
+  color: #53565A;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+.dates__bottom {
+  padding-top: 0.5rem;
+}
+.dates__bottom-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #cdcbcb 1px solid;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+.dates__bottom-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 4rem 0 4rem;
+  padding: 1rem 0 1rem 0;
+}
+.dates__bottom-emp, .dates__bottom-details {
+  display: flex;
+  flex-direction: column;
+}
+.dates__bottom-pic {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  width: 20%;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 1.5625rem;
+}
+.dates__bottom-name {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.dates__bottom-position {
+  color: #076966;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.dates__bottom-top {
+  font-size: 1.1rem;
+  color: #53565A;
+  font-weight: 500;
+}
+.dates__bottom-bott {
+  font-size: 0.9rem;
+  color: #A0A0A0;
+  font-weight: 400;
+}
+.dates__bottom-date {
+  color: #076966;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.dates__bottom-p, .dates__bottom-emp, .dates__bottom-details, .dates__bottom-date {
+  width: 20%;
+}/*# sourceMappingURL=UpcomingDates.css.map */

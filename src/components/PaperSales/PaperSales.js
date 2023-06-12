@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+
 import './PaperSales.scss';
 import { BiDotsHorizontalRounded } from 'react-icons/bi';
-import { Chart } from 'react-charts';
-import MyChart from './Chart';
+// import MyChart from './Chart';
 import {GoPrimitiveDot} from 'react-icons/go';
 
 
@@ -34,7 +33,7 @@ Legal</span>
 <div className='paper__bottom'>
     
     <div className='paper__diagram'>
-<MyChart />
+{/* <MyChart /> */}
     </div>
     
      </div>
