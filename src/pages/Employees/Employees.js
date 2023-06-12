@@ -2,7 +2,6 @@ import './Employees.scss';
 import notification from '../../assets/icons/NotificationIcon.svg';
 import { BiDotsHorizontalRounded } from 'react-icons/bi';
 import { Line } from 'react-chartjs-2';
-import { useState } from 'react';
 import empData from '../../data/employees.json';
 import {
     Chart as ChartJS,
