@@ -1,0 +1,64 @@
+[
+    {
+      "title": "Dundie Awards Ceremony",
+      "allDay": true,
+      "start": "2023-06-02T18:00:00",
+      "end": "2023-06-02T20:00:00",
+      "desc": "Annual Dundie Awards ceremony to recognize outstanding employees."
+    },
+    {
+      "title": "Conference Call with Jan",
+      "start": "2023-06-05T09:30:00",
+      "end": "2023-06-05T12:00:00",
+      "desc": "Important conference call with Jan Levinson."
+    },
+    {
+      "title": "Team Building Exercise",
+      "start": "2023-06-07T14:00:00",
+      "end": "2023-06-09T16:00:00",
+      "desc": "Engaging team building activity for boosting morale and camaraderie."
+    },
+    {
+      "title": "Lunch at Poor Richard's",
+      "start": "2023-06-12T12:30:00",
+      "end": "2023-06-12T13:30:00",
+      "desc": "Casual lunch outing with the Dunder Mifflin team at Poor Richard's."
+    },
+    {
+      "title": "Sales Presentation",
+      "start": "2023-06-12T09:00:00",
+      "end": "2023-06-12T10:30:00",
+      "desc": "Important sales presentation to potential clients."
+    },
+    {
+      "title": "Dwight's Beet Farm Visit",
+      "start": "2023-06-16T11:00:00",
+      "end": "2023-06-17T13:00:00",
+      "desc": "Field trip to Dwight's beet farm for a unique team bonding experience."
+    },
+    {
+      "title": "Office Olympics",
+      "start": "2023-06-18T13:00:00",
+      "end": "2023-06-19T17:00:00",
+      "desc": "Fun-filled Office Olympics with various hilarious competitions."
+    },
+    {
+      "title": "Company Picnic",
+      "start": "2023-06-21T11:00:00",
+      "end": "2023-06-21T16:00:00",
+      "desc": "Annual company picnic with food, games, and entertainment."
+    },
+    {
+      "title": "Michael's Birthday Celebration",
+      "start": "2023-06-25T17:00:00",
+      "end": "2023-06-30T20:00:00",
+      "desc": "Surprise birthday celebration for Michael Scott."
+    },
+    {
+      "title": "Dinner with Clients",
+      "start": "2023-06-23T19:00:00",
+      "end": "2023-06-23T21:00:00",
+      "desc": "Important dinner meeting with potential clients."
+    }
+  ]
+  

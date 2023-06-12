@@ -1,0 +1,41 @@
+{
+    "employees": [
+      {
+        "name": "Meredith Palmer",
+        "department": "Supplier Relations",
+        "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/The-Office-Kate-Flannery-as-Meredith-Palmer.jpg",
+        "engagement": [15, 40, 70, 20, 80, 95, 60],
+        "effectiveness": [35, 25, 80, 15, 90, 70, 45],
+        "culture": [85, 90, 60, 75, 20, 50, 95],
+        "wellbeing": [60, 10, 40, 85, 75, 20, 95]
+      },
+      {
+        "name": "Oscar Martinez",
+        "department": "Accountant",
+        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Oscar-Martinez.The-Office.webp",
+        "engagement": [80, 5, 60, 25, 95, 10, 75],
+        "effectiveness": [65, 15, 90, 35, 80, 45, 70],
+        "culture": [60, 20, 95, 85, 50, 75, 90],
+        "wellbeing": [75, 85, 10, 60, 95, 40, 20]
+      },
+      {
+        "name": "Dwight Shrute",
+        "department": "Assistant to the Regional Manager",
+        "image": "https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Landing-Pages/2-0-design/the-office/cast-the-office-dwight-schrute.jpg/_jcr_content/renditions/original.JPEG",
+        "engagement": [30, 75, 20, 80, 45, 90, 15],
+        "effectiveness": [70, 35, 15, 45, 80, 25, 60],
+        "culture": [90, 60, 75, 50, 95, 20, 85],
+        "wellbeing": [40, 95, 75, 60, 20, 85, 10]
+      },
+      {
+        "name": "Pam Beesly",
+        "department": "Receptionist",
+        "image": "https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Landing-Pages/2-0-design/the-office/cast-the-office-pam-beesly.jpg/_jcr_content/renditions/original.JPEG",
+        "engagement": [10, 25, 70, 5, 60, 85, 76],
+        "effectiveness": [45, 12, 87, 9, 54, 87, 76],
+        "culture": [75, 80, 85, 90, 95, 100, 105],
+        "wellbeing": [75, 80, 85, 90, 95, 100, 105]
+      }
+    ]
+  }
+  

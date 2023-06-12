@@ -3,9 +3,9 @@ import './App.scss';
 import Nav from '../src/components/Nav/Nav';
 import Dashboard from '../src/pages/Dashboard/Dashboard';
 import Header from "./components/Header/Header";
-import Employees from "./components/Employees/Employees";
-// import calculatePsychSafetyScore from "../src/components/ChartInfo/ChartInfo";
+import Employees from "./pages/Employees/Employees";
 import SurveyPage from "../src/pages/SurveyPage/SurveyPage";
+import Schedule from "./pages/Schedule/Schedule";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
    <Route path="/" element={<Dashboard />} />
    <Route path="/employees" element={<Employees />} />
    <Route path="/survey" element={<SurveyPage />} />
+   <Route path="/schedule" element={<Schedule />} />
    </Routes>
  </div> 
   );

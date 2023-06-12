@@ -24,21 +24,21 @@ export default function Nav() {
        <img className="nav__logo" src={dunderMifflin} alt='dunder-mifflin-logo'></img></div>
        <div className='nav__bottom'>
         <ul>
+      <Link to = '/'>  <li className='nav__sec'>
+      <img className="nav__sec-icon " src={dash} alt='dashboard-logo'></img>  <h3> Dashboard</h3>
+      </li></Link>
+      <Link to= {"/schedule"}> 
       <li className='nav__sec'>
-      <img className="nav__sec-icon " src={dash} alt='dashboard-logo'></img>    <Link to = '/'><h3> Dashboard</h3></Link>
-      </li>
-      <li className='nav__sec'>
-      <img className="nav__sec-icon" src={schedule} alt='scheduling-logo'></img> <h3>Scheduling</h3>
-      </li>
-      <li  className='nav__sec'>
+      <img className="nav__sec-icon" src={schedule} alt='scheduling-logo'></img> <h3>Schedule</h3>
+      </li> </Link>
+     <Link to= {"/employees"}> <li  className='nav__sec'>
         
-      <img className="nav__sec-icon"  src={employees} alt='employees-logo'></img><Link to= {"/employees"}> <h3>Employees</h3>
-        </Link>
-      </li>
-      <li className='nav__sec nav__sec--hr'>
-      <img className="nav__sec-icon"  src={pieGraph} alt='pie-graph-logo'></img> <Link to= {"/survey"}> <h3>Surveys</h3> </Link>
-      </li>
-      {/* <hr className='nav__sec-hr'></hr> */}
+      <img className="nav__sec-icon"  src={employees} alt='employees-logo'></img> <h3>Employees</h3>
+      
+      </li>  </Link>
+    <Link to= {"/survey"}>   <li className='nav__sec nav__sec--hr'>
+      <img className="nav__sec-icon"  src={pieGraph} alt='pie-graph-logo'></img> <h3>Surveys</h3> 
+      </li></Link>
       <li className='nav__sec nav__sec--settings'>
       <img className="nav__sec-icon"  src={settings} alt='settings-logo'></img> <h3>Settings</h3>
       </li>
