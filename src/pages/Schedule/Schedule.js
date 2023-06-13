@@ -6,7 +6,6 @@ import moment from 'moment'
 import events from '../../data/events.json';
 import 'react-big-calendar/lib/sass/agenda.scss';
 import 'react-big-calendar/lib/sass/styles.scss';
-import 'react-big-calendar/lib/sass/event.scss';
 import 'react-big-calendar/lib/sass/time-column.scss';
 import 'react-big-calendar/lib/sass/time-grid.scss';
 import 'react-big-calendar/lib/sass/toolbar.scss';
