@@ -1,7 +1,7 @@
 
 import './PaperSales.scss';
 import { BiDotsHorizontalRounded } from 'react-icons/bi';
-// import MyChart from './Chart';
+import MyChart from './Chart';
 import {GoPrimitiveDot} from 'react-icons/go';
 
 
@@ -33,7 +33,7 @@ Legal</span>
 <div className='paper__bottom'>
     
     <div className='paper__diagram'>
-{/* <MyChart /> */}
+<MyChart />
     </div>
     
      </div>
